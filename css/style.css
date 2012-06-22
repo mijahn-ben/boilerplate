@@ -89,19 +89,20 @@ html, body {
 
 body {
 	font-family: 'CopseRegular', serif;	
+	height: 100%;
 }
 
 #pageWrapper {
 	margin: 0px auto;
 	width: 100%;
-	max-width: 1140px;
-   width: expression(document.body.clientWidth < 202? "200px" : document.body.clientWidth > 1134? "1132px" : "auto");
-   min-height: 100%;	
+	min-height: 100%;	
+   background: grey;
 }
 
 /*header */
 header {
 	padding: 10px 0 0 0;
+	margin-bottom: 5px;
 	background: lightgrey;
 	
 }
@@ -122,7 +123,6 @@ header {
 nav {
 	
 	display: inline-block;
-	background: rgba(0, 0, 0, 0.0);
 	width: 100%;
 }
 
@@ -136,7 +136,7 @@ nav .mainNavigation {
 
 nav .mainNavigation li {
 	float: left;
-	width: 12.5%;
+	width: 100%;
 	margin: 0 0 10px 0;
 	padding: 0;
 	
@@ -149,7 +149,7 @@ nav .mainNavigation li a {
 	color: #fff;
 	padding: 10px;
 	margin: 0 5px;
-	background: rgba(0, 0, 0, 0.5);
+	background: grey;
 	display: block;
 }
 
@@ -160,16 +160,136 @@ nav .mainNavigation li a:hover {
 
 /*end header*/
 
-@media (max-width: 960px) {
-	nav .mainNavigation li{
-			width: 25%;		
-		}	
+/*generic body content */
+
+#wrap {
+	height: 100%;
+	
+	
 }
 
-@media (max-width: 480px) {
-	nav .mainNavigation li{
-			width: 50%;		
+.content {
+	min-height: 100%;
+	padding: 10px;
+	margin: 0 5px 5px 5px;
+	background: lightgrey;
+}
+
+.oneCol {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.oneCol .content {
+	padding: 10px;
+	margin: 0 5px 5px 5px;
+	background: lightgrey;	
+}
+
+.twoCol {
+	width: 100%;
+	float: left;
+	height: 100%;
+}
+
+.twoCol .content {
+	padding: 10px;
+	margin: 0 5px 5px 5px;
+	background: lightgrey;	
+}
+
+.threeCol {
+	width: 100%;
+	float: left;
+	height: 100%;
+}
+
+.threeCol .content {
+	padding: 10px;
+	margin: 0 5px 5px 5px;
+	background: lightgrey;	
+}
+
+.threeCol .twoCol {
+		width: 100%	
+		}
+
+.mainContent {
+	width: 100%;
+	float: left;	
+}
+
+.sideBar {
+	width: 100%;
+	float: left;	
+}
+
+
+
+/*end generic body content */
+
+
+
+@media (min-width: 320px) {
+	nav .mainNavigation li {
+		width: 50%;		
 		}	
+		
+}
+
+@media (min-width: 480px) {
+	#pageWrapper {
+		max-width: 1140px;
+   width: expression(document.body.clientWidth < 202? "200px" : document.body.clientWidth > 1134? "1132px" : "auto");	
+	}
+	nav .mainNavigation li {
+		width: 25%;	
+	}
+	.twoCol {
+		width: 50%;	
+		}
+		.twoCol .twoCol {
+		width: 100%;	
+	}
+	.threeCol {
+		width: 50%;	
+		}
+			
+}
+
+@media (min-width: 640px) {
+	.threeCol {
+		width: 33.33%;	
+		}
+		
+		.twoCol .twoCol {
+		width: 50%;	
+	}	
+		.mainContent {
+	width: 66.66%;
+	float: left;	
+}
+
+.sideBar {
+	width: 33.33%;
+	float: left;	
+}
+		
+}
+
+@media (min-width: 960px) {
+	
+	nav .mainNavigation li {
+		width: 12.5%;	
+	}
+	.threeCol .twoCol {
+		width: 50%	
+		}	
+
+
+		
+	
 }
 
 @media only screen and (min-width: 35em) {
