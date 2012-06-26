@@ -102,7 +102,6 @@ body {
 /*header */
 header {
 	padding: 10px 0 0 0;
-	margin-bottom: 5px;
 	background: lightgrey;
 	
 }
@@ -137,7 +136,7 @@ nav .mainNavigation {
 nav .mainNavigation li {
 	float: left;
 	width: 100%;
-	margin: 0 0 10px 0;
+	margin: 5px 0 5px 0;
 	padding: 0;
 	
 	
@@ -164,6 +163,7 @@ nav .mainNavigation li a:hover {
 
 #wrap {
 	height: 100%;
+	margin-top: 5px;
 	
 	
 }
@@ -225,7 +225,14 @@ nav .mainNavigation li a:hover {
 	float: left;	
 }
 
+.oneGrid {
+	width: 100%;
+	float: left;	
+}
 
+.oneGrid .content {
+	
+}
 
 /*end generic body content */
 
@@ -255,6 +262,9 @@ nav .mainNavigation li a:hover {
 	.threeCol {
 		width: 50%;	
 		}
+	.oneGrid {
+		width: 25%;		
+	}
 			
 }
 
@@ -267,12 +277,12 @@ nav .mainNavigation li a:hover {
 		width: 50%;	
 	}	
 		.mainContent {
-	width: 66.66%;
+	width: 70%;
 	float: left;	
 }
 
 .sideBar {
-	width: 33.33%;
+	width: 30%;
 	float: left;	
 }
 		
@@ -285,7 +295,10 @@ nav .mainNavigation li a:hover {
 	}
 	.threeCol .twoCol {
 		width: 50%	
-		}	
+		}
+	.oneGrid {
+		width: 12.5%;		
+	}	
 
 
 		

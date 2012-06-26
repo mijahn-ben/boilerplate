@@ -34,10 +34,10 @@
 		<ul class="mainNavigation" role="main navigation">
 			<li><a href="index.php">Home</a></li>
 			<li><a href="twoColumns.php">2 Column</a></li>
-			<li><a href="#">Blog</a></li>
+			<li><a href="blog.php">Blog</a></li>
 			<li><a href="#">Contact</a></li>
 			<li><a href="threeColumns.php">3 Column</a></li>
-			<li><a href="#">Grid</a></li>
+			<li><a href="grid.php">Grid</a></li>
 			<li><a href="#">Isotope</a></li>
 			<li><a href="#">Slider</a></li>
 		</ul>	
