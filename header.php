@@ -37,9 +37,9 @@
 			<li><a href="#">Blog</a></li>
 			<li><a href="#">Contact</a></li>
 			<li><a href="threeColumns.php">3 Column</a></li>
-			<!--<li><a href="#">Grid</a></li>
+			<li><a href="#">Grid</a></li>
 			<li><a href="#">Isotope</a></li>
-			<li><a href="#">Slider</a></li>-->
+			<li><a href="#">Slider</a></li>
 		</ul>	
 	</nav>
   </header>
