@@ -1,6 +1,6 @@
 # Responsive boilerplate based on html5 boilerplate
 
-# Under development!
+* Under development!
 
 ## License
 
