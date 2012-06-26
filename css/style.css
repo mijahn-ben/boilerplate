@@ -163,7 +163,7 @@ nav .mainNavigation li a:hover {
 
 #wrap {
 	height: 100%;
-	margin-top: 5px;
+	margin: 5px 2px;
 	
 	
 }
@@ -225,13 +225,21 @@ nav .mainNavigation li a:hover {
 	float: left;	
 }
 
-.oneGrid {
+.eightGrid {
 	width: 100%;
 	float: left;	
+	margin: 0;
+	padding: 0;
 }
 
-.oneGrid .content {
-	
+.eightGrid .content {
+	padding: 10px;
+	display: block;
+}
+
+.fourGrid {
+	width: 100%;
+	float: left;	
 }
 
 /*end generic body content */
@@ -241,7 +249,14 @@ nav .mainNavigation li a:hover {
 @media (min-width: 320px) {
 	nav .mainNavigation li {
 		width: 50%;		
-		}	
+		}
+		.eightGrid {
+		width: 50%;		
+	}
+	.fourGrid {
+		width: 50%;	
+	}
+				
 		
 }
 
@@ -262,8 +277,11 @@ nav .mainNavigation li a:hover {
 	.threeCol {
 		width: 50%;	
 		}
-	.oneGrid {
+	.eightGrid {
 		width: 25%;		
+	}
+	.fourGrid {
+		width: 25%;	
 	}
 			
 }
@@ -296,9 +314,12 @@ nav .mainNavigation li a:hover {
 	.threeCol .twoCol {
 		width: 50%	
 		}
-	.oneGrid {
+	.eightGrid {
 		width: 12.5%;		
-	}	
+	}
+	.fourGrid {
+		width: 25%;	
+	}
 
 
 		
