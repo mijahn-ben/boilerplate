@@ -43,4 +43,6 @@
 		</ul>	
 	</nav>
   </header>
-  
+  <div class="content">
+  <p>Watch/Fork on Github: <a href="https://github.com/benholiio/boilerplate" target="blank">github.com/benholiio/boilerplate</a></p>
+  </div>
