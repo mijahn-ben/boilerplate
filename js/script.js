@@ -103,3 +103,12 @@ $(function() {
 		});
 	}
 });
+
+/* Call Cookie Cuttr */
+
+$(document).ready(function () {
+$.cookieCuttr({
+	cookieDeclineButton: true,
+	cookieResetButton: true	
+});
+});

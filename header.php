@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title></title>
+  <title>Search Image Library</title>
   <meta name="description" content="">
 
   <meta name="viewport" content="width=device-width">
@@ -33,11 +33,11 @@
 	<nav>
 		<ul class="mainNavigation" role="main navigation">
 			<li><a href="index.php">Home</a></li>
-			<li><a href="twoColumns.php">2 Column</a></li>
+			<li><a href="twoColumns.php">2 Columns</a></li>
 			<li><a href="blog.php">Blog</a></li>
-			<li><a href="#">Contact</a></li>
-			<li><a href="threeColumns.php">3 Column</a></li>
-			<li><a href="grid.php">Grid</a></li>
+			<li><a href="forms.php">Forms</a></li>
+			<li><a href="threeColumns.php">3 Columns</a></li>
+			<li><a href="grid.php">Grids</a></li>
 			<li><a href="#">Isotope</a></li>
 			<li><a href="#">Slider</a></li>
 		</ul>	
