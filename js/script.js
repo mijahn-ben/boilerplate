@@ -2,6 +2,19 @@
 
 */
 
+/* Call Cookie Cuttr */
+
+$(document).ready(function () {
+$.cookieCuttr({
+	cookieDeclineButton: true,
+	cookieResetButton: true,
+	cookieDiscreetReset: true,
+	cookieAnalytics: true
+	//cookieMessage: 'We use cookies on this website, you can <a href="{{cookiePolicyLink}}" title="read about our cookies">read about them here</a>. To use the website as intended please...',
+	//cookiePolicyLink: 'http://cookiecuttr.com/'	
+});
+});
+
 /* Canvas Logo */
 
 var canvas = document.getElementById('myCanvas');
@@ -104,11 +117,4 @@ $(function() {
 	}
 });
 
-/* Call Cookie Cuttr */
 
-$(document).ready(function () {
-$.cookieCuttr({
-	cookieDeclineButton: true,
-	cookieResetButton: true	
-});
-});

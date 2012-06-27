@@ -98,100 +98,89 @@
       <br />
       <textarea id="textarea" name="textarea" rows="5" placeholder="This is an example of HTML5 placeholder text."></textarea>
     </p>
-    <table class="horiz">
-      <tr>
-        <td>
+    <p>
           <label for="url">
             URL + Autofocus
           </label>
           <br />
           <input type="url" id="url" name="url" value="http://" autofocus="autofocus" />
-        </td>
-        <td>
+    </p>
+    <p>
           <label for="email">
             Email
           </label>
           <br />
           <input type="email" id="email" name="email" placeholder="name@example.com" />
-        </td>
-        <td>
+    </p>
+    <p>
           <label for="password">
             Password
           </label>
           <br />
           <input type="password" id="password" name="password" placeholder="Alphanumeric123!" />
-        </td>
-      </tr>
-      <tr>
-        <td>
+    </p>
+    <p>
           <label for="datetime-local">
             Datetime local
           </label>
           <br />
           <input type="datetime-local" id="datetime-local" name="datetime-local" />
-        </td>
-        <td>
+     </p>
+     <p>
           <label for="number">
             Number
           </label>
           <br />
           <input type="number" id="number" name="number" min="0" max="999" step="1" />
-        </td>
-        <td>
+     </p>
+     <p>
           <label for="tel">
             Tel (phone)
           </label>
           <br />
           <input type="tel" id="tel" name="tel" />
-        </td>
-      </tr>
-      <tr>
-        <td>
+    </p>
+    <p>
           <label for="datetime">
             Datetime
           </label>
           <br />
           <input type="datetime" id="datetime" name="datetime" />
-        </td>
-        <td>
+	</p>
+	<p>       
+       
           <label for="date">
             Date
           </label>
           <br />
           <input type="date" id="date" name="date" />
-        </td>
-        <td>
+    </p>
           <label for="month">
             Month
           </label>
           <br />
           <input type="month" id="month" name="month" />
-        </td>
-      </tr>
-      <tr>
-        <td>
+    <p>
           <label for="search">
             Search
           </label>
           <br />
           <input type="search" id="search" name="search" />
-        </td>
-        <td>
+     </p>
+     <p>
           <label for="range">
             Range
           </label>
           <br />
           <input type="range" id="range" name="range" />
-        </td>
-        <td>
+      </p>
+      <p>
           <label for="file">
             File upload
           </label>
           <br />
           <input type="file" id="file" name="file" />
-        </td>
-      </tr>
-    </table>
+       </p>
     <p>
       <input type="submit" value="Input - Submit" />
       &nbsp;
