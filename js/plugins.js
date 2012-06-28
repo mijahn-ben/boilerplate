@@ -52,7 +52,7 @@ window.log = function f(){ log.history = log.history || []; log.history.push(arg
             cookieDiscreetLink: false,
             cookieDiscreetReset: false,
             cookieDiscreetLinkText: "Cookies?",
-            cookieDiscreetPosition: "topleft", //options: topleft, topright, bottomleft, bottomright         
+            cookieDiscreetPosition: "bottomleft", //options: topleft, topright, bottomleft, bottomright         
             cookieNoMessage: false, // change to true hide message from all pages apart from your policy page
             cookieDomain: ""
         };

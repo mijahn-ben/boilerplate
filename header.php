@@ -22,9 +22,9 @@
   <header>
   <div id="logo">
 	<a href="#" class="logoImage">
-	<canvas id="myCanvas" height="150">
-<img src="img/logo.png" width="140" height="158" alt="" />
-</canvas>
+	<div class="logoContainer" style="background: url('http://placehold.it/300x120&text=Your+logo') no-repeat;">
+	<img src="http://placehold.it/300x120&text=Your+logo" />
+	</div>
 	</a>  
   </div>
   

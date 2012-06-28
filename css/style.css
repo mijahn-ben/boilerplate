@@ -69,7 +69,7 @@ td { vertical-align: top; }
 
 /* To be used with cookieCuttr by Chris Wharton (http://cookiecuttr.com) */
 
-.cc-cookies { position:fixed; width: 90%; left: 0; top: 0; padding: 1em 5%; background: #565656; background: rgba(86,86,86,0.75); color: #fff; font-size: 13px; font-weight: 700; text-shadow: 0 -1px 0 rgba(0,0,0,0.35); z-index: 99999; text-align: center; color: #fff; }
+.cc-cookies { position:fixed; width: 90%; left: 0; bottom: 0; padding: 1em 5%; background: #565656; background: rgba(86,86,86,0.75); color: #fff; font-size: 13px; font-weight: 700; text-shadow: 0 -1px 0 rgba(0,0,0,0.35); z-index: 99999; text-align: center; color: #fff; }
 .cc-cookies a, .cc-cookies a:hover { color: #fff; text-decoration: underline; }
 .cc-cookies a:hover { text-decoration: none; }
 .cc-overlay { height: 100%; padding-top: 25%; }
@@ -79,7 +79,7 @@ td { vertical-align: top; }
 .cc-cookies a.cc-cookie-reset { background: #ff7722 }
 .cc-cookies a:hover.cc-cookie-accept, .cc-cookies-error a:hover.cc-cookie-accept, .cc-cookies a:hover.cc-cookie-decline, .cc-cookies-error a:hover.cc-cookie-decline, .cc-cookies a:hover.cc-cookie-reset  { background: #000; -o-transition: background 0.5s ease-in; -webkit-transition: background 0.25s ease-in; -moz-transition: background 0.25s ease-in; }
 .cc-cookies-error a.cc-cookie-accept, .cc-cookies-error a.cc-cookie-decline { display: block; margin-top: 1em; }
-.cc-cookies.cc-discreet { width: auto; padding: 0.5em 1em; margin: 0.5em; position: fixed;
+.cc-cookies.cc-discreet { width: auto; padding: 0.5em 1em; margin: 0.5em; position: fixed; left: 0; bottom: 0;
 	background: #AF3B3B;
 padding: 0.5em 0.75em;
 border-radius: 3px;
@@ -142,16 +142,21 @@ header {
 }
 
 #logo {
-	width: 150px;
+	width: 100%;
 	float: left;
 	margin: 0 0 10px 0;	
 }
-.myCanvas {
+.logoContainer {
 	display: inline-block;
-	height: 150px;
-	padding: 10px;
-		
-}
+	background: no-repeat;
+	margin: 7px;
+	overflow: hidden;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+	width: 280px;
+	height: 120px;		
+		}
 
 
 nav {
@@ -293,6 +298,7 @@ nav .mainNavigation li a:hover {
 	.fourGrid {
 		width: 50%;	
 	}
+	
 				
 		
 }
@@ -357,6 +363,7 @@ nav .mainNavigation li a:hover {
 	.fourGrid {
 		width: 25%;	
 	}
+	
 
 
 		
