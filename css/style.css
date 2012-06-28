@@ -1090,6 +1090,7 @@ optgroup::-moz-focus-inner {
 .cc-cookies { position: fixed; float: left; }
 }
 
+
 @media (min-width: 320px) {
 	nav .mainNavigation li {
 		width: 50%;		
