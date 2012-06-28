@@ -46,5 +46,24 @@ $(function() {
 		});
 	}
 });
-
+$(document).ready(function() {
+    $("#mySlider").royalSlider({
+        captionShowEffects:["moveleft", "fade"],
+        directionNavAutoHide: true,
+        slideshowEnabled: false,                // Autoslideshow enabled          
+    slideshowDelay:5000,                    // Delay between slides in slideshow
+    slideshowPauseOnHover: true,            // Pause slideshow on hover
+    slideshowAutoStart:true,
+        hideArrowOnLastSlide:true,
+        imageAlignCenter:true,
+	   		imageScaleMode: "fill",
+	   		
+	   		hideArrowOnLastSlide:true,
+	   		slideSpacing:20,
+	   		
+	   		autoScaleSlider: true,
+	   		autoScaleSliderWidth: 1150,
+	   		autoScaleSliderHeight: 400
+    });  
+});
 

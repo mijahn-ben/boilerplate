@@ -21,7 +21,7 @@
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
   <div id="logo">
-	<a href="#" class="logoImage">
+	<a href="index.php" class="logoImage">
 	<div class="logoContainer" style="background: url('http://placehold.it/300x120&text=Your+logo') no-repeat;">
 	<img src="http://placehold.it/300x120&text=Your+logo" />
 	</div>
@@ -39,10 +39,14 @@
 			<li><a href="threeColumns.php">3 Columns</a></li>
 			<li><a href="grid.php">Grids</a></li>
 			<li><a href="#">Isotope</a></li>
-			<li><a href="#">Slider</a></li>
+			<li><a href="slider.php">Slider</a></li>
 		</ul>	
 	</nav>
   </header>
+  <!--one column -->		
+		<div class="oneCol">
   <div class="content">
   <p>Watch/Fork on Github: <a href="https://github.com/benholiio/boilerplate" target="blank">github.com/benholiio/boilerplate</a></p>
   </div>
+  		</div>
+<!-- end one column -->

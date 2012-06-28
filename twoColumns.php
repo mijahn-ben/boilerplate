@@ -1,6 +1,7 @@
 <?php include('header.php'); ?>  
   <div id="wrap" role="main">
-
+<!--one column -->		
+		<div class="oneCol clearfix">
 <!-- two column -->
 		<div class="twoCol">
 			<div class="content">
@@ -17,6 +18,12 @@
 			</div>			
 		</div>
 <!-- end two column -->
+
+		</div>
+<!-- end one column -->
+
+<!--one column -->		
+		<div class="oneCol clearfix">
 
 <!-- two column nested -->
 		<div class="twoCol">
@@ -46,6 +53,8 @@
 		</div>
 <!-- end two column nested -->
 
+		</div>
+<!-- end one column -->
 
   </div>
 <?php include('footer.php'); ?>
